@@ -1,49 +1,69 @@
 # 🗂️ File Manager Pro
 
-A modern **File Management System** built with **Python** and **Streamlit** that provides an intuitive dashboard for performing essential file handling operations through a clean and interactive user interface.
+A modern **File Management System** built with **Python** and **Streamlit** that provides a clean, responsive, and interactive interface for performing essential file handling operations.
 
-Designed as a portfolio project, this application demonstrates Python file handling concepts while focusing on usability, responsive design, and modern UI.
-
----
-
-## 📸 Application Preview
-
-> Screenshot will be added after deployment.
-
-```text
-images/dashboard.png
-```
+This project demonstrates Python file handling concepts through a modern dashboard with CRUD operations and an intuitive user experience.
 
 ---
 
-# ✨ Features
+## 🚀 Features
+
+### 📊 Dashboard
+- View total number of files
+- Monitor total storage usage
+- Identify the largest file
+- Display file type distribution
+- View recently modified files
+- Interactive dashboard with charts
+
+### 📄 File Operations
+- ➕ Create new files
+- 📖 Read file contents
+- ✏️ Rename files
+- 📝 Append new content
+- 🔄 Overwrite existing content
+- 🗑️ Delete files safely
+
+### 🎨 User Interface
+- Modern dark-themed dashboard
+- Responsive layout
+- Sidebar navigation
+- Color-coded statistics cards
+- Interactive charts
+- Clean typography
+- User-friendly interface
+
+---
+
+# 📸 Application Screenshots
 
 ## 📊 Dashboard
 
-- View total number of files
-- Display total storage used
-- Identify the largest file
-- View file type distribution
-- Recently modified files
-- Interactive dashboard with charts
+![Dashboard](images/dashboard.png)
 
-## 📄 File Operations
+---
 
-- ✅ Create new files
-- ✅ Read existing files
-- ✅ Rename files
-- ✅ Append new content
-- ✅ Overwrite file contents
-- ✅ Delete files safely
+## ➕ Create File
 
-## 🎨 User Interface
+![Create File](images/create.png)
 
-- Modern dark theme
-- Responsive layout
-- Interactive sidebar navigation
-- Color-coded dashboard cards
-- Clean typography
-- Streamlit-powered interface
+---
+
+## 📖 Read File
+
+![Read File](images/read.png)
+
+---
+
+## ✏️ Update File
+
+![Update File](images/update.png)
+
+---
+
+## 🗑️ Delete File
+
+![Delete File](images/delete.png)
 
 ---
 
@@ -67,13 +87,18 @@ file-manager-pro/
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
+├── .gitignore
 └── images/
-    └── dashboard.png
+    ├── dashboard.png
+    ├── create.png
+    ├── read.png
+    ├── update.png
+    └── delete.png
 ```
 
 ---
 
-# 🚀 Installation
+# ⚙️ Installation
 
 Clone the repository
 
@@ -81,19 +106,19 @@ Clone the repository
 git clone https://github.com/tribhuwan-singh/file-manager-pro.git
 ```
 
-Navigate into the project
+Navigate into the project directory
 
 ```bash
 cd file-manager-pro
 ```
 
-Install dependencies
+Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+Run the Streamlit application
 
 ```bash
 streamlit run app.py
@@ -109,34 +134,35 @@ streamlit run app.py
 - Dashboard Design
 - Data Visualization
 - Error Handling
-- User Interface Design
+- UI Design
+- Project Structuring
 
 ---
 
 # 🎯 Future Enhancements
 
 - Workspace-based file management
-- File search functionality
+- Search functionality
 - File upload support
-- Download option
+- Download files
 - File preview
-- Dark/Light mode switch
-- Deployment on Streamlit Community Cloud
+- Dark/Light mode toggle
+- Cloud deployment
 
 ---
 
 # 📚 Learning Outcomes
 
-This project helped strengthen my understanding of:
+This project strengthened my understanding of:
 
 - Python Programming
 - File Handling
-- Streamlit Framework
-- Dashboard Development
+- Streamlit Development
+- Dashboard Design
 - User Interface Design
 - Error Handling
-- Project Structuring
 - Git & GitHub Workflow
+- Building Portfolio Projects
 
 ---
 
@@ -146,14 +172,11 @@ This project helped strengthen my understanding of:
 
 Aspiring Data Analyst | Python Developer
 
-GitHub:
-https://github.com/tribhuwan-singh
-
-LinkedIn:
-https://www.linkedin.com/in/tribhuwansinghkunwar/
+- GitHub: https://github.com/tribhuwan-singh
+- LinkedIn: *(Add your LinkedIn profile URL here)*
 
 ---
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project helpful, consider giving it a ⭐ on GitHub.
