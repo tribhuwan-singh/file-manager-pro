@@ -1,80 +1,85 @@
 # 🗂️ File Manager Pro
 
-A modern **File Management System** built with **Python** and **Streamlit** that provides a clean, responsive, and interactive interface for performing essential file handling operations.
+> A modern **File Management System** built with **Python** and **Streamlit**, featuring an interactive dashboard and essential file handling operations through a clean and responsive user interface.
 
-This project demonstrates Python file handling concepts through a modern dashboard with CRUD operations and an intuitive user experience.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ---
 
-## 🚀 Features
+# ✨ Features
 
-### 📊 Dashboard
-- View total number of files
-- Monitor total storage usage
-- Identify the largest file
-- Display file type distribution
-- View recently modified files
-- Interactive dashboard with charts
+## 📊 Dashboard
 
-### 📄 File Operations
-- ➕ Create new files
-- 📖 Read file contents
-- ✏️ Rename files
-- 📝 Append new content
-- 🔄 Overwrite existing content
-- 🗑️ Delete files safely
+- 📁 Total Files
+- 💾 Total Storage Used
+- 📄 Largest File Detection
+- 📊 File Type Distribution
+- 🕒 Recently Modified Files
+- 📈 Interactive Charts
 
-### 🎨 User Interface
-- Modern dark-themed dashboard
-- Responsive layout
-- Sidebar navigation
-- Color-coded statistics cards
-- Interactive charts
-- Clean typography
-- User-friendly interface
+---
+
+## 📄 File Operations
+
+- ➕ Create Files
+- 📖 Read Files
+- ✏️ Rename Files
+- 📝 Append Content
+- 🔄 Overwrite Content
+- 🗑️ Delete Files
+
+---
+
+## 🎨 Modern UI
+
+- 🌙 Dark Theme
+- 📱 Responsive Layout
+- 🎯 Interactive Sidebar
+- 🎨 Color-coded Dashboard
+- 📊 Analytics Cards
+- ⚡ Fast Navigation
 
 ---
 
 # 📸 Application Screenshots
 
-## 📊 Dashboard
+## Dashboard & Create
 
-![Dashboard](images/dashboard.png)
-
----
-
-## ➕ Create File
-
-![Create File](images/create.png)
+| Dashboard | Create File |
+|-----------|-------------|
+| ![](images/dashboard.png) | ![](images/create.png) |
 
 ---
 
-## 📖 Read File
+## Read & Update
 
-![Read File](images/read.png)
-
----
-
-## ✏️ Update File
-
-![Update File](images/update.png)
+| Read File | Update File |
+|-----------|-------------|
+| ![](images/read.png) | ![](images/update.png) |
 
 ---
 
-## 🗑️ Delete File
+## Delete
 
-![Delete File](images/delete.png)
+| Delete File |
+|-------------|
+| ![](images/delete.png) |
 
 ---
 
-# 🛠️ Technologies Used
+# 🛠️ Tech Stack
 
-- Python
-- Streamlit
-- Pandas
-- Pathlib
-- HTML
-- CSS
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| Streamlit | Web Application Framework |
+| Pandas | Data Processing |
+| Pathlib | File Management |
+| HTML | UI Customization |
+| CSS | Styling |
 
 ---
 
@@ -84,10 +89,11 @@ This project demonstrates Python file handling concepts through a modern dashboa
 file-manager-pro/
 │
 ├── app.py
-├── README.md
 ├── requirements.txt
+├── README.md
 ├── LICENSE
 ├── .gitignore
+│
 └── images/
     ├── dashboard.png
     ├── create.png
@@ -98,27 +104,27 @@ file-manager-pro/
 
 ---
 
-# ⚙️ Installation
+# 🚀 Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/tribhuwan-singh/file-manager-pro.git
 ```
 
-Navigate into the project directory
+### Navigate to the project
 
 ```bash
 cd file-manager-pro
 ```
 
-Install the required dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the Streamlit application
+### Run the application
 
 ```bash
 streamlit run app.py
@@ -133,50 +139,58 @@ streamlit run app.py
 - Streamlit Development
 - Dashboard Design
 - Data Visualization
+- Responsive UI Design
 - Error Handling
-- UI Design
 - Project Structuring
-
----
-
-# 🎯 Future Enhancements
-
-- Workspace-based file management
-- Search functionality
-- File upload support
-- Download files
-- File preview
-- Dark/Light mode toggle
-- Cloud deployment
 
 ---
 
 # 📚 Learning Outcomes
 
-This project strengthened my understanding of:
+This project helped me improve my understanding of:
 
-- Python Programming
-- File Handling
-- Streamlit Development
-- Dashboard Design
-- User Interface Design
-- Error Handling
-- Git & GitHub Workflow
-- Building Portfolio Projects
+- ✅ Python Programming
+- ✅ File Handling
+- ✅ Streamlit Framework
+- ✅ Dashboard Development
+- ✅ UI Design
+- ✅ Error Handling
+- ✅ Git & GitHub Workflow
+- ✅ Building Portfolio Projects
+
+---
+
+# 🔮 Future Enhancements
+
+- 🔍 File Search
+- 📤 File Upload
+- 📥 File Download
+- 👁️ File Preview
+- 📂 Workspace Support
+- 🌗 Light/Dark Mode
+- ☁️ Cloud Deployment
 
 ---
 
 # 👨‍💻 Author
 
-**Tribhuwan Singh Kunwar**
+### Tribhuwan Singh Kunwar
 
-Aspiring Data Analyst | Python Developer
+**Aspiring Data Analyst | Python Developer**
 
-- GitHub: https://github.com/tribhuwan-singh
-- LinkedIn: *(Add your LinkedIn profile URL here)*
+- 🌐 GitHub: https://github.com/tribhuwan-singh
+- 💼 LinkedIn: *(Add your LinkedIn profile URL here)*
 
 ---
 
-## ⭐ Support
+# ⭐ Show Your Support
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+If you like this project, consider giving it a **⭐ Star** on GitHub.
+
+It helps support my work and encourages future projects.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
