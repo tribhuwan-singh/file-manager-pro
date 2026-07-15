@@ -179,7 +179,7 @@ This project helped me improve my understanding of:
 **Aspiring Data Analyst | Python Developer**
 
 - 🌐 GitHub: https://github.com/tribhuwan-singh
-- 💼 LinkedIn: *(Add your LinkedIn profile URL here)*
+- 💼 LinkedIn: https://www.linkedin.com/in/tribhuwansinghkunwar/
 
 ---
 
